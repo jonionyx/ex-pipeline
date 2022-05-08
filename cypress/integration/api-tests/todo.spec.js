@@ -18,7 +18,7 @@ describe('TODO api testing', () => {
     });
 
 
-    it.only('Adds Todo item - POST', () => {
+    it('Adds Todo item - POST', () => {
         cy.request('POST', '/todos/', { task: "run tests" }).as('todoRequest');
         // adds new Todo item by defining Todo name
         cy.get('@todoRequest').then(todos => {
