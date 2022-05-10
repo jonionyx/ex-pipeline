@@ -7,7 +7,8 @@
 
 
 describe('First Test', () => {
-    it('Welcome!', () => {
+    it.only('Welcome!', () => {
+     cy.visit()
         expect(true).to.equal(true)
     })
 })

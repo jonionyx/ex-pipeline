@@ -1,4 +1,4 @@
 {
-    "baseUrl": "http://todo-app-barkend.herokuapp.com/",
+    "baseUrl": "https://www.cable.co.uk/ppc/virgin-media/broadband/",
     "integrationFolder": "cypress/integration/api-tests"
 }
